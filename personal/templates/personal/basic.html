@@ -1,0 +1,9 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+	hola!! soy contenido	
+	{% for c in cont %}	{# variable de views.contact()--diccionario #}
+		<p>{{c}}</p>	
+	{% endfor %}
+
+{% endblock %}
